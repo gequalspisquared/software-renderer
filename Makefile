@@ -30,4 +30,4 @@ clean:
 
 # typing 'make run' will compile and run the executable
 run: $(OUTPUT)
-	cd bin && ./$(OUTPUT) && cd ..
+	cd bin && ./$(OUTPUT) && cd .. && feh --auto-zoom output.tga
